@@ -11,6 +11,8 @@
   color: var(--text);
   /* height: 100vh; */
   margin: 0;
+  position: relative;
+  
 
 }
 
@@ -36,6 +38,7 @@
   -moz-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
+  padding-bottom: 0;
 }
 
 @keyframes fadeIn {
@@ -65,4 +68,23 @@
 
 .valText {
   color: var(--valText);
+}
+
+h4 {
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  font-weight: bold;
+  color: var(--text);
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: small;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
 }
