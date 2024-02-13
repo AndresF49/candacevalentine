@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# What is this?
+
+This simple React App was created as a Valentine's gift for my wonderful and amazing girlfriend.
+
+## Color Palette 
+
+Color Palette taken from [here](https://colorhunt.co/palette/4f6f5273907286a789d2e3c8).
+
+## GIFs
+
+GIFs taken from [Tenor](https://tenor.com).
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
