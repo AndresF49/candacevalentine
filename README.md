@@ -1,6 +1,6 @@
 # What is this?
 
-This simple React App was created as a Valentine's gift for my wonderful and amazing girlfriend.
+This simple React App was created as a Valentine's gift for my wonderful and amazing girlfriend. Crafted a gift for the one I cherish most, blending my love for her with my passion for coding.
 
 ## Color Palette 
 
