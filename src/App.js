@@ -6,6 +6,7 @@ import secondImg from './media/2nd.gif';
 import thirdImg from './media/3rd.gif';
 import fourthImg from './media/4th.gif';
 import yesImg from './media/yes.gif';
+import andres from './media/andres.jpg'
 
 function App() {
   const [renderPage, setRenderPage] = useState(false);
@@ -49,7 +50,14 @@ function App() {
         </header>
         { renderPage === true && !renderYes &&
           <div className="App-body">
-            <h3>Will you be my <span className='valText'>Valentine</span>?</h3>
+            <div className='valentineDiv'>
+              <div className='textWrapper'>
+                <h3>Will you be my <span className='valText'>Valentine</span>?</h3>
+              </div>
+              <div className='imageWrapper'>
+                <img className='andresPic' alt='' src={andres} height={"100px"} width={"90px"} />
+              </div>  
+            </div>
             <h4>{noArr[imgIndex]}</h4>
             <img src={imgArr[imgIndex]} alt='' height={300} width={320}/>
             <div className='buttonCtn'>

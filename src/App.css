@@ -107,3 +107,32 @@ button:disabled {
   gap: 20px;
   align-items: center;
 }
+
+.valentineDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.andresPic {
+  opacity: 0;
+  border-radius: 50%;
+  animation: slideAndSpin 3s linear forwards;
+  animation-delay: 1s;
+}
+
+.textWrapper, .imageWrapper {
+  text-align: center;
+}
+
+@keyframes slideAndSpin {
+  0% {
+    transform: translateX(100vw) rotate(360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+  }
+}
