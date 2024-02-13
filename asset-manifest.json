@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AndresF49/candacevalentine/static/css/main.c22b483b.css",
+    "main.js": "/AndresF49/candacevalentine/static/js/main.2633590f.js",
+    "static/js/592.32ea8a16.chunk.js": "/AndresF49/candacevalentine/static/js/592.32ea8a16.chunk.js",
+    "static/media/2nd.gif": "/AndresF49/candacevalentine/static/media/2nd.b01c34e9a6ace50759f7.gif",
+    "static/media/andres.jpg": "/AndresF49/candacevalentine/static/media/andres.fec57b08d77784355ca9.jpg",
+    "static/media/yes.gif": "/AndresF49/candacevalentine/static/media/yes.66ff007b90824eef25f5.gif",
+    "static/media/4th.gif": "/AndresF49/candacevalentine/static/media/4th.5534947189c76b1d41a1.gif",
+    "static/media/1st.gif": "/AndresF49/candacevalentine/static/media/1st.29a2782e787dcb5c1562.gif",
+    "static/media/3rd.gif": "/AndresF49/candacevalentine/static/media/3rd.e7b9e43d070eb02c817d.gif",
+    "index.html": "/AndresF49/candacevalentine/index.html",
+    "main.c22b483b.css.map": "/AndresF49/candacevalentine/static/css/main.c22b483b.css.map",
+    "main.2633590f.js.map": "/AndresF49/candacevalentine/static/js/main.2633590f.js.map",
+    "592.32ea8a16.chunk.js.map": "/AndresF49/candacevalentine/static/js/592.32ea8a16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c22b483b.css",
+    "static/js/main.2633590f.js"
+  ]
+}
