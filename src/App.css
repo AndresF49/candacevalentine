@@ -2,6 +2,7 @@
   --bgcolor: #4F6F52;
   --text: #D2E3C8;
   --valText: #C68484;
+  --buttonBg: #86A789;
 }
 
 .App {
@@ -13,7 +14,6 @@
   margin: 0;
   position: relative;
   
-
 }
 
 .App-header {
@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* color: white; */
+  text-align: center;
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -87,4 +87,23 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   
+}
+
+button {
+  background-color: var(--buttonBg);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+button:disabled {
+  opacity: 0;
+}
+
+.buttonCtn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
 }
