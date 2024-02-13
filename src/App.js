@@ -38,27 +38,25 @@ function App() {
           <h1><Typewriter text="Hello my lovely beautiful darling pookie wookie, 
           Candace. I have just one question for you..." delay={90} onComplete={handleOnComplete} /></h1>
         </header>
-        <div className="App-body">
         { renderPage === true && !renderYes &&
-          <>
+          <div className="App-body">
             <h3>Will you be my <span className='valText'>Valentine</span>?</h3>
             <h4>{noArr[imgIndex]}</h4>
             <img src={imgArr[imgIndex]} alt='' height={300} width={320}/>
             <button onClick={handleChoiceYes}>{yesArr[imgIndex]}</button>
             <button onClick={handleChoiceNo}>No</button>
-          </> 
+          </div> 
         }
         { renderYes === true && 
-        <>
+        <div className="App-body">
           <img src={yesImg} alt='' height={300} width={320}/>
           <h2>YAYAYAYYAYAYAYYAYAYAYYAYAYAYAYYAYAYAYAYAYYAYAYAY<br></br>
           YAYAYAYYAYAYAYYAYAYAYYAYAYAYAYYAYAYAYAYAYYAYAYAY<br></br>
           YAYAYAYYAYAYAYYAYAYAYYAYAYAYAYYAYAYAYAYAYYAYAYAY<br></br>
           YAYAYAYYAYAYAYYAYAYAYYAYAYAYAYYAYAYAYAYAYYAYAYAY<br></br>
           YAYAYAYYAYAYAYYAYAYAYYAYAYAYAYYAYAYAYAYAYYAYAYAY</h2>
-        </>
-        }
         </div>
+        }
         <footer>
           Made for Candace by Andres
         </footer>
